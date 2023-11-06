@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const BarnowlTheThingsStack = require('../lib/barnowlthethingsstack.js');
+
+let barnowl = new BarnowlTheThingsStack();
+
+barnowl.addListener(BarnowlTheThingsStack.HttpListener, { port: 3001 });
+
+barnowl.on('raddec', (raddec) => {
+  console.log(raddec.toFlattened());
+});

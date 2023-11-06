@@ -1,0 +1,42 @@
+{
+  "name": "barnowl-thethingsstack",
+  "homepage": "https://github.com/reelyactive/barnowl-thethingsstack/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Collect ambient LoRaWAN packets from The Things Stack.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "LoRaWAN",
+    "The Things Stack",
+    "The Things Network",
+    "raddec"
+  ],
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "main": "./lib/barnowlthethingsstack.js",
+  "scripts": {
+    "start": "node bin/barnowl-thethingsstack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnowl-thethingsstack.git"
+  },
+  "dependencies": {
+    "advlib-identifier": ">=0.1.0",
+    "raddec": ">=0.5.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnowl-thethingsstack/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}
