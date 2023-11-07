@@ -22,7 +22,7 @@ Clone this repository, install package dependencies with `npm install`, and then
 
     npm start
 
-__barnowl-thethingsstack__ will indiscriminately accept HTTP POSTs on localhost:3001/thethingsstack and output (flattened) __raddec__ JSON to the console.
+__barnowl-thethingsstack__ will indiscriminately accept HTTP POSTs of [uplink messages](https://www.thethingsindustries.com/docs/the-things-stack/concepts/data-formats/#uplink-messages) on localhost:3001/thethingsstack and output (flattened) __raddec__ JSON to the console.
 
 
 Hello barnowl-thethingsstack!
